@@ -85,10 +85,11 @@ export default function Home() {
       </div>
       
       {/* フッターエリア */}
-      <footer className="fixed bottom-0 w-full p-6 pb-32 md:pb-6 bg-gradient-to-t from-[#0B1021] to-transparent z-30">
-        <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 text-xs md:text-sm text-slate-500 font-mono">
+      {/* Footer Area */}
+      <footer className="w-full py-8 mt-12 border-t border-slate-800/50 bg-[#0B1021]/50 backdrop-blur-sm">
+        <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-6 text-xs md:text-sm text-slate-500 font-mono">
           
-          <span className="opacity-70 order-3 md:order-1">
+          <span className="opacity-70 order-2 md:order-1">
              {t('footer')}
           </span>
 
@@ -123,6 +124,7 @@ export default function Home() {
               <Github size={14} />
               <span>GitHub</span>
             </a>
+
           </div>
 
           <span className="hidden md:inline text-slate-800 order-2 md:order-4">|</span>
