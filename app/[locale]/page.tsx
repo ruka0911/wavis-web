@@ -85,7 +85,7 @@ export default function Home() {
       </div>
       
       {/* フッターエリア */}
-      <footer className="fixed bottom-0 w-full p-6 bg-gradient-to-t from-[#0B1021] to-transparent z-30">
+      <footer className="fixed bottom-0 w-full p-6 pb-32 md:pb-6 bg-gradient-to-t from-[#0B1021] to-transparent z-30">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 text-xs md:text-sm text-slate-500 font-mono">
           
           <span className="opacity-70 order-3 md:order-1">
