@@ -1,0 +1,23 @@
+{
+  "HomePage": {
+    "title": "RECOVER YOUR RENT",
+    "subtitle": "Don't let your SOL sleep in spam accounts.<br/><b>0% Service Fee.</b> You only pay the standard Solana network fee.",
+    "connectBtn": "Connect & Clean",
+    "footer": "Protected by WAVIS Protocol"
+  },
+  "Dashboard": {
+    "totalRecoverable": "Total Recoverable",
+    "spamAccounts": "Spam Accounts",
+    "readyToBurn": "Ready to Burn",
+    "safetyScore": "Safety Score",
+    "recoverAll": "Recover All",
+    "cleanMessage": "Wallet is clean! No spam found.",
+    "rescan": "Rescan",
+    "processing": "Processing..."
+  },
+  "Footer": {
+    "official": "Official X",
+    "developer": "Dev: @NFT_Coll",
+    "feedback": "Report Bug / Request"
+  }
+}

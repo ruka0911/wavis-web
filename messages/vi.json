@@ -1,0 +1,23 @@
+{
+  "HomePage": {
+    "title": "KHÔI PHỤC TÀI SẢN CỦA BẠN",
+    "subtitle": "Đừng để SOL của bạn ngủ quên trong các tài khoản rác.<br/><b>Phí dịch vụ 0%.</b> Bạn chỉ trả phí mạng Solana tiêu chuẩn.",
+    "connectBtn": "Kết nối & Dọn dẹp",
+    "footer": "Được bảo vệ bởi Giao thức WAVIS"
+  },
+  "Dashboard": {
+    "totalRecoverable": "Tổng có thể thu hồi",
+    "spamAccounts": "Tài khoản rác",
+    "readyToBurn": "Sẵn sàng đốt",
+    "safetyScore": "Điểm an toàn",
+    "recoverAll": "Thu hồi tất cả",
+    "cleanMessage": "Ví sạch sẽ! Không tìm thấy rác.",
+    "rescan": "Quét lại",
+    "processing": "Đang xử lý..."
+  },
+  "Footer": {
+    "official": "X Chính thức",
+    "developer": "Nhà phát triển: @YourName",
+    "feedback": "Báo lỗi / Yêu cầu"
+  }
+}

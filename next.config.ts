@@ -1,7 +1,13 @@
-import type { NextConfig } from "next";
+import createNextIntlPlugin from 'next-intl/plugin';
+import type { NextConfig } from 'next';
 
+// プラグインの作成
+const withNextIntl = createNextIntlPlugin();
+
+// Next.jsの基本設定
 const nextConfig: NextConfig = {
-  /* config options here */
+  /* ここに将来的な設定が入ります */
 };
 
-export default nextConfig;
+// プラグインで設定を包んでエクスポート
+export default withNextIntl(nextConfig);

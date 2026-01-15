@@ -1,0 +1,23 @@
+{
+  "HomePage": {
+    "title": "眠っている資産を取り戻す",
+    "subtitle": "スパムアカウントにSOLを放置しないでください。<br/><b>手数料は0%です。</b>かかるのはSolanaネットワークのガス代のみ。",
+    "connectBtn": "ウォレットを接続して掃除",
+    "footer": "WAVISプロトコルにより保護されています"
+  },
+  "Dashboard": {
+    "totalRecoverable": "回収可能な総額",
+    "spamAccounts": "スパムアカウント",
+    "readyToBurn": "焼却可能",
+    "safetyScore": "安全性スコア",
+    "recoverAll": "すべて回収する",
+    "cleanMessage": "ウォレットは綺麗です！スパムはありません。",
+    "rescan": "再スキャン",
+    "processing": "処理中..."
+  },
+  "Footer": {
+    "official": "公式X (旧Twitter)",
+    "developer": "開発者: @NFT_Coll",
+    "feedback": "バグ報告・機能要望"
+  }
+}

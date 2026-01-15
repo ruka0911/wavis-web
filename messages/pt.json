@@ -1,0 +1,23 @@
+{
+  "HomePage": {
+    "title": "RECUPERE SEUS ATIVOS",
+    "subtitle": "Não deixe seu SOL dormir em contas de spam.<br/><b>Taxa de serviço de 0%.</b> Você paga apenas a taxa de rede Solana.",
+    "connectBtn": "Conectar e Limpar",
+    "footer": "Protegido pelo Protocolo WAVIS"
+  },
+  "Dashboard": {
+    "totalRecoverable": "Total Recuperável",
+    "spamAccounts": "Contas de Spam",
+    "readyToBurn": "Pronto para Queimar",
+    "safetyScore": "Pontuação de Segurança",
+    "recoverAll": "Recuperar Tudo",
+    "cleanMessage": "Carteira limpa! Nenhum spam encontrado.",
+    "rescan": "Verificar novamente",
+    "processing": "Processando..."
+  },
+  "Footer": {
+    "official": "X Oficial",
+    "developer": "Dev: @YourName",
+    "feedback": "Relatar Bug / Pedido"
+  }
+}
