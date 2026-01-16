@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"; // 👈 追加
 import { useWallet } from "@solana/wallet-adapter-react";
-import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+import { UnifiedWalletButton } from "@jup-ag/wallet-adapter";
 import Image from "next/image";
 import Dashboard from "@/app/components/Dashboard"; 
 import LanguageSwitcher from "@/app/components/LanguageSwitcher";
@@ -42,7 +42,7 @@ export default function Home() {
         
         {/* 👇 対策: マウントされるまでボタンを表示しない（これでエラーが消えます） */}
         {mounted && (
-           <WalletMultiButton style={{ backgroundColor: connected ? "#1E293B" : "#F97316", height: "40px", fontSize: "14px" }} />
+           <UnifiedWalletButton buttonClassName={`${connected ? "bg-[#1E293B]" : "bg-[#F97316]"} h-10 text-sm`} />
         )}
       </div>
 
@@ -75,7 +75,7 @@ export default function Home() {
                <div className="scale-125">
                  {/* 👇 対策: ボタン部分 */}
                  {mounted && (
-                   <WalletMultiButton style={{ backgroundColor: "#F97316", fontWeight: "800", borderRadius: "8px" }} />
+                   <UnifiedWalletButton buttonClassName="bg-[#F97316] font-extrabold rounded-lg" />
                  )}
                </div>
             </div>
@@ -84,7 +84,6 @@ export default function Home() {
 
       </div>
       
-      {/* フッターエリア */}
       {/* Footer Area */}
       <footer className="w-full py-8 mt-12 border-t border-slate-800/50 bg-[#0B1021]/50 backdrop-blur-sm">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-6 text-xs md:text-sm text-slate-500 font-mono">
